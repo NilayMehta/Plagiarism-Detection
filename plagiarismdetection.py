@@ -4,7 +4,7 @@ import sys
 This python script is a command-line program that checks for plagiarism between
 two files using a N-tuple comparison algorithm given a list of synonyms. To run
 the file using the test files, please run the command:
-'python plagiarismdetection.py syns.txt file1.txt file2.txt'
+'python plagiarismdetection.py syms.txt file1.txt file2.txt'
 '''
 
 '''
@@ -84,7 +84,7 @@ def main():
 		plagiarism_count = plagiarism_detect(input1tuples, input2tuples)
 		print str(float(plagiarism_count)/len(input2tuples) * 100) + ""
 	except: #if we have an exception thrown, the supplied arguements are incorrect
-		print "The inputs for the file were incorrect! \n For help and usage, please run the command 'python plagiarismdetection.py -h'"
+		print "The inputs for the file were incorrect! \n For help and usage, please refer to readme.md!"
 		sys.exit(1)
 
 if __name__ == '__main__':
