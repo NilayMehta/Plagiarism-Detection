@@ -7,5 +7,5 @@ In order to use this Plagiaraism tool, please pass in the following arguments: <
     3. Input File 2 to check <br />
     4. (optional) Integer N tuple size, default is N=3
 
-An example useage using the test files would be:
+An example useage using the test files would be: <br />
 python plagiarismdetection.py syns.txt file1.txt file2.txt
